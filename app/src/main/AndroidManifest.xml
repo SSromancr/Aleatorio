@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ssroman.appleatorios">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Aleatorio"
+            android:label="@string/title_activity_aleatorio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CaraCruz"
+            android:label="@string/title_activity_cara_cruz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PiedraPapelTijera"
+            android:label="@string/title_activity_piedra_papel_tijera"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dados"
+            android:label="@string/title_activity_dados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ruleta"
+            android:label="@string/title_activity_ruleta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cartas"
+            android:label="@string/title_activity_cartas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sorteos"
+            android:label="@string/title_activity_sorteos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Password"
+            android:label="@string/title_activity_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarajaEspanola"
+            android:label="@string/title_activity_baraja_espanola"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarajaFrancesa"
+            android:label="@string/title_activity_baraja_francesa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AleatorioConRepeticion"
+            android:label="@string/title_activity_aleatorio_con_repeticion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AleatorioSinRepeticion"
+            android:label="@string/title_activity_aleatorio_sin_repeticion"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

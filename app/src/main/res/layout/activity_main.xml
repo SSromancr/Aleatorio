@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ssroman.appleatorios.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <LinearLayout
+        android:id="@+id/vlmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textoAppleatorios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="APPLEATORIOS"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_Aleatorio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generar Aleatorio"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_CaraCruz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara o Cruz"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_PiedraPapelTijera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piedra, Papel, Tijera"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_Dados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dados"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_Ruleta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruleta"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_Cartas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cartas"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_Sorteos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sorteos"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseñas"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
