@@ -56,12 +56,13 @@
                     android:textSize="24sp" />
 
                 <EditText
-                    android:id="@+id/editText2"
+                    android:id="@+id/inicial1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -79,12 +80,13 @@
                     android:textSize="24sp" />
 
                 <EditText
-                    android:id="@+id/editText3"
+                    android:id="@+id/final1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -102,12 +104,13 @@
                     android:textSize="24sp" />
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/repeticiones1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:text="0" />
             </LinearLayout>
 
             <LinearLayout
@@ -116,12 +119,14 @@
                 android:orientation="vertical">
 
                 <Button
+                    android:id="@+id/generar1"
+                    android:onClick="generarAleatorio1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="GENERAR ALEATORIO" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/resultado1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp" />
