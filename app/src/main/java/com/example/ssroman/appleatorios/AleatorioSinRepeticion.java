@@ -17,7 +17,7 @@ public class AleatorioSinRepeticion extends AppCompatActivity {
         setContentView(R.layout.activity_aleatorio_sin_repeticion);
 
     }
-    int n1, n2, rep, comprobar;
+    int n1, n2, rep;
     String serie;
 
 
@@ -26,13 +26,17 @@ public class AleatorioSinRepeticion extends AppCompatActivity {
         EditText final2 = (EditText) findViewById(R.id.final2);
         EditText repeticiones2 = (EditText) findViewById(R.id.repeticiones2);
         TextView resultado2 = (TextView) findViewById(R.id.resultado2);
-        int i, j, k, rango;
         resultado2.setText("");
+
         n1 = Integer.parseInt(inicial2.getText().toString());
         n2 = Integer.parseInt(final2.getText().toString());
         rep = Integer.parseInt(repeticiones2.getText().toString());
+
+        int i, j, k, rango;
         rango = n2-n1;
         int [] numeros = new int [rep];
+
+        //INTRODUCCION DE ALEATORIOS EN EL ARRAY Y COMPROBACION PARA EVITAR NUMEROS REPETIDOS
         if ((rep < rango) && (rep != 0) && (n2 > n1)) {
             numeros[0]=aleatorio(n1, n2);
             for (i = 1; i < rep; i++) {
@@ -44,11 +48,13 @@ public class AleatorioSinRepeticion extends AppCompatActivity {
                 }// fin del jor j
             } // fin del for i
 
+            // IMPRIMIR ELEMENTOS DEL ARRAY
             for (k=0; k < rep; k++){
                 serie = String.valueOf(numeros[k]);
                 resultado2.setText(serie + ", " + resultado2.getText());
             }
 
+            // EXCEPCIONES
             } else {
             Toast.makeText(this, "Asigna valor correcto a los operadores", Toast.LENGTH_LONG).show();
             inicial2.setText("0");
@@ -58,11 +64,10 @@ public class AleatorioSinRepeticion extends AppCompatActivity {
     }
 
     public int aleatorio (int n1, int n2){
-
         Random r = new Random();
             int dato = r.nextInt(n2-n1) + n1;
             return dato;
-         //Numero de veces que genera un aleatorio con el contador limite
+
     }
-    }
+}
 
