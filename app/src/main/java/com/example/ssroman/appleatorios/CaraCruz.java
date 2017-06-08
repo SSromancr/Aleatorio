@@ -24,11 +24,11 @@ public class CaraCruz extends AppCompatActivity {
         int dato = r.nextInt(2) + 1;
         switch (dato){
             case 1:
-                imagen.setImageResource(R.mipmap.monedacruzok);
+                imagen.setImageResource(R.drawable.monedacruz);
                 x.setText("CRUZ");
                 break;
             case 2:
-                imagen.setImageResource(R.mipmap.monedacaraok);
+                imagen.setImageResource(R.drawable.monedacara);
                 x.setText("CARA");
                 break;
         }

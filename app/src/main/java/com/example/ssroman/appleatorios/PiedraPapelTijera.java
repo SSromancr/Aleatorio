@@ -24,15 +24,15 @@ public class PiedraPapelTijera extends AppCompatActivity {
         int dato = r.nextInt(3) + 1;
         switch (dato){
             case 1:
-                imagen.setImageResource(R.mipmap.piedra);
+                imagen.setImageResource(R.drawable.piedra);
                 x.setText("PIEDRA");
                 break;
             case 2:
-                imagen.setImageResource(R.mipmap.papel);
+                imagen.setImageResource(R.drawable.papel);
                 x.setText("PAPEL");
                 break;
             case 3:
-                imagen.setImageResource(R.mipmap.tijera);
+                imagen.setImageResource(R.drawable.tijera);
                 x.setText("TIJERA");
                 break;
         }

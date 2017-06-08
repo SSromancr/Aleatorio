@@ -26,8 +26,8 @@ public class Sorteos extends AppCompatActivity {
         EditText max_reintegro = (EditText) findViewById(R.id.maximo_reintegro);
         TextView resulSorteo = (TextView) findViewById(R.id.resultadoSorteo);
         TextView resulReintegro = (TextView) findViewById(R.id.resultadoReintegro);
-        resulSorteo.setText("");
-        resulReintegro.setText("");
+        resulSorteo.setText("Números ganadores: ");
+        resulReintegro.setText("Reintegros ganadores: ");
 
         int max1, premios1, reintegro1, maxReintegro;
 
@@ -55,7 +55,7 @@ public class Sorteos extends AppCompatActivity {
             // IMPRIMIR ELEMENTOS DEL ARRAY DE PREMIOS
             for (k=0; k < premios1; k++){
                 serie = String.valueOf(numeros[k]);
-                resulSorteo.setText(serie + " " + resulSorteo.getText());
+                resulSorteo.setText(resulSorteo.getText() + " " + serie);
                 resulSorteo.setVisibility(View.VISIBLE);
             }
 
@@ -82,7 +82,7 @@ public class Sorteos extends AppCompatActivity {
                 // IMPRIMIR ELEMENTOS DEL ARRAY DE REINTEGROS
                 for (n = 0; n < reintegro1; n++) {
                     serie = String.valueOf(reintegroArray[n]);
-                    resulReintegro.setText(serie + " " + resulReintegro.getText());
+                    resulReintegro.setText(resulReintegro.getText() + " " + serie);
                     resulReintegro.setVisibility(View.VISIBLE);
                 }
 
