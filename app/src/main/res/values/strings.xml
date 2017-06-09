@@ -14,5 +14,8 @@
     <string name="title_activity_aleatorio_con_repeticion">AleatorioConRepeticion</string>
     <string name="title_activity_aleatorio_sin_repeticion">AleatorioSinRepeticion</string>
     <string name="title_activity_activityAB">ActivityAB</string>
+    <string name="title_activity_ejemplo">ejemplo</string>
+    <string name="title_activity_email">EmailActivity</string>
+    <string name="title_activity_acerca_popup">AcercaPopup</string>
 
 </resources>
