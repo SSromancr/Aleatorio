@@ -5,13 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondoappleatorios2"
     tools:context="com.example.ssroman.appleatorios.MainActivity">
 
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:alpha="0.5">
 
 
         <android.support.v7.widget.Toolbar
@@ -21,15 +23,17 @@
             android:layout_weight="1"
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme" />
+            android:theme="?attr/actionBarTheme"
+            />
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_main" />
 
     <LinearLayout
         android:id="@+id/vlmain"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="55dp"
         android:orientation="vertical">
 
@@ -37,76 +41,95 @@
             android:id="@+id/textoAppleatorios"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
             android:autoText="false"
-            android:fontFamily="serif"
             android:gravity="center"
             android:text="MENÚ PRINCIPAL"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
 
         <Button
             android:id="@+id/button_Aleatorio"
+            style="@android:style/Widget.Button.Inset"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:alpha="0.75"
+            android:textSize="18sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Generar Aleatorio"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
+            android:text="Generar Aleatorio" />
 
         <Button
             android:id="@+id/button_CaraCruz"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cara o Cruz"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:alpha="0.75" />
 
         <Button
             android:id="@+id/button_PiedraPapelTijera"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Piedra, Papel, Tijera"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:alpha="0.75" />
 
         <Button
             android:id="@+id/button_Dados"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dados"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:alpha="0.75" />
 
         <Button
             android:id="@+id/button_Ruleta"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ruleta"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:alpha="0.75" />
 
         <Button
             android:id="@+id/button_Cartas"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cartas"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:alpha="0.75" />
 
         <Button
             android:id="@+id/button_Sorteos"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sorteos"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:alpha="0.75" />
 
         <Button
             android:id="@+id/button_Password"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Contraseñas"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:alpha="0.75" />
     </LinearLayout>
 
 

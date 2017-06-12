@@ -1,52 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context="com.example.ssroman.appleatorios.AcercaPopup">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_acerca_popup" />
 
     <LinearLayout
         android:id="@+id/layoutpopup"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="135dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="85dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="APPLEATORIOS\nVersión 1.0\n\nDesarrollado por Agustín Peñalver Álvaro\n\nNo olvides dejar tu valoración, comentarios y sugerencias para ayudarme a mejorar la aplicación. Gracias!!"
-            android:textAlignment="center" />
-
-        <Button
-            android:id="@+id/cerrarpopup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="CERRAR" />
-
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="APPLEATORIOS\nVersión 1.0\n\nDesarrollado por Agustín Peñalver Álvaro\n\nNo olvides dejar tu valoración, comentarios y sugerencias para ayudarme a mejorar la aplicación. Gracias!!"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

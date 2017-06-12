@@ -4,19 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondoappleatorios2"
     tools:context="com.example.ssroman.appleatorios.Aleatorio">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:alpha="0.5"
+        >
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
 
     </android.support.design.widget.AppBarLayout>
 
@@ -25,22 +29,28 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="55dp">
+        android:layout_marginTop="55dp"
+        android:gravity="center_horizontal">
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:id="@+id/vlmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="GENERAR ALEATORIO"
                 android:fontFamily="serif"
                 android:gravity="center"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:text="GENERAR ALEATORIO"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+                android:textSize="24sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -49,15 +59,23 @@
 
                 <Button
                     android:id="@+id/button_ConRepeticion"
+                    style="@android:style/Widget.Button.Inset"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ALEATORIO CON REPETICION" />
+                    android:alpha="0.75"
+                    android:text="Aleatorio con repetición"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button_SinRepeticion"
+                    style="@android:style/Widget.Button.Inset"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ALEATORIO SIN REPETICION" />
+                    android:alpha="0.75"
+                    android:text="Aleatorio sin repetición"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
 

@@ -2,6 +2,7 @@ package com.example.ssroman.appleatorios;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -96,7 +97,11 @@ public class AleatorioSinRepeticion extends AppCompatActivity {
                 startActivity(new Intent(AleatorioSinRepeticion.this, EmailActivity.class));
                 break;
             case R.id.acerca:
-                startActivity(new Intent(AleatorioSinRepeticion.this, AcercaPopup.class));
+                AlertDialog.Builder emergente = new AlertDialog.Builder(AleatorioSinRepeticion.this);
+                View vista = getLayoutInflater().inflate(R.layout.activity_acerca_popup, null);
+                emergente.setView(vista);
+                AlertDialog dialogo = emergente.create();
+                dialogo.show();
                 break;
             default:
                 return super.onOptionsItemSelected(item);

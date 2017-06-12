@@ -2,19 +2,17 @@
     <string name="app_name">Appleatorios</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_aleatorio">Aleatorio</string>
-    <string name="title_activity_cara_cruz">CaraCruz</string>
-    <string name="title_activity_piedra_papel_tijera">PiedraPapelTijera</string>
+    <string name="title_activity_cara_cruz">Cara o cruz</string>
+    <string name="title_activity_piedra_papel_tijera">Piedra, papel, yijera</string>
     <string name="title_activity_dados">Dados</string>
     <string name="title_activity_ruleta">Ruleta</string>
     <string name="title_activity_cartas">Cartas</string>
     <string name="title_activity_sorteos">Sorteos</string>
     <string name="title_activity_password">Password</string>
-    <string name="title_activity_baraja_espanola">BarajaEspanola</string>
-    <string name="title_activity_baraja_francesa">BarajaFrancesa</string>
-    <string name="title_activity_aleatorio_con_repeticion">AleatorioConRepeticion</string>
-    <string name="title_activity_aleatorio_sin_repeticion">AleatorioSinRepeticion</string>
-    <string name="title_activity_activityAB">ActivityAB</string>
-    <string name="title_activity_ejemplo">ejemplo</string>
+    <string name="title_activity_baraja_espanola">Baraja Espanola</string>
+    <string name="title_activity_baraja_francesa">Baraja Francesa</string>
+    <string name="title_activity_aleatorio_con_repeticion">Aleatorio con repetición</string>
+    <string name="title_activity_aleatorio_sin_repeticion">Aleatorio sin repetición</string>
     <string name="title_activity_email">EmailActivity</string>
     <string name="title_activity_acerca_popup">AcercaPopup</string>
 
