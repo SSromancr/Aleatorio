@@ -43,6 +43,8 @@ public class PiedraPapelTijera extends AppCompatActivity {
                 x.setText("TIJERA");
                 break;
         }
+        x.setVisibility(View.VISIBLE);
+
 
     }
 

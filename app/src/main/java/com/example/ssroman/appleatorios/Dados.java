@@ -55,6 +55,7 @@ public class Dados extends AppCompatActivity {
                 x.setText("SEIS (6)");
                 break;
         }
+        x.setVisibility(View.VISIBLE);
 
     }
 

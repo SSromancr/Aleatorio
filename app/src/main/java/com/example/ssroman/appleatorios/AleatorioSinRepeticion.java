@@ -58,7 +58,8 @@ public class AleatorioSinRepeticion extends AppCompatActivity {
             // IMPRIMIR ELEMENTOS DEL ARRAY
             for (k=0; k < rep; k++){
                 serie = String.valueOf(numeros[k]);
-                resultado2.setText(serie + ", " + resultado2.getText());
+                resultado2.setText(serie + " " + resultado2.getText());
+                resultado2.setVisibility(View.VISIBLE);
             }
 
             // EXCEPCIONES

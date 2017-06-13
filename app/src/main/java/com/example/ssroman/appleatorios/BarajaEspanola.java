@@ -223,6 +223,7 @@ public class BarajaEspanola extends AppCompatActivity {
                 x.setText("Rey de Oros");
                 break;
         }
+        x.setVisibility(View.VISIBLE);
 
     }
 

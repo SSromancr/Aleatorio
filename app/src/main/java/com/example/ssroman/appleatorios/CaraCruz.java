@@ -39,6 +39,7 @@ public class CaraCruz extends AppCompatActivity {
                 x.setText("CARA");
                 break;
         }
+        x.setVisibility(View.VISIBLE);
 
     }
 

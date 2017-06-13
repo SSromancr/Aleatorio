@@ -44,7 +44,8 @@ public class AleatorioConRepeticion extends AppCompatActivity {
                 do {
                     int dato = r.nextInt(n2-n1) + n1;
                     serie = String.valueOf(dato);
-                    resultado1.setText(serie + ", " + resultado1.getText());
+                    resultado1.setText(serie + " " + resultado1.getText());
+                    resultado1.setVisibility(View.VISIBLE);
                     limite++;
                 } while (limite <= rep); //Numero de veces que genera un aleatorio con el contador limite
             }else{

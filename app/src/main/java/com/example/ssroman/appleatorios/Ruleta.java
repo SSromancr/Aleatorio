@@ -216,7 +216,8 @@ public class Ruleta extends AppCompatActivity {
                 serie.setText(serie.getText() + "36 ");
                 break;
         }
-
+        x.setVisibility(View.VISIBLE);
+        serie.setVisibility(View.VISIBLE);
     }
 
     @Override

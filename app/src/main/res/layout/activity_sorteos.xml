@@ -176,7 +176,10 @@
                     android:layout_height="wrap_content"
                     android:text="Números ganadores: "
                     android:textSize="18sp"
-                    android:visibility="invisible"/>
+                    android:visibility="invisible"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/white"/>
 
                 <TextView
                     android:id="@+id/resultadoReintegro"
@@ -184,7 +187,10 @@
                     android:layout_height="wrap_content"
                     android:text="Reintegro/s: "
                     android:textSize="18sp"
-                    android:visibility="invisible"/>
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:visibility="invisible"
+                    android:background="@android:color/white"/>
             </LinearLayout>
 
         </LinearLayout>

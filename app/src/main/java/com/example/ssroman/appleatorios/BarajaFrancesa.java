@@ -239,6 +239,7 @@ public class BarajaFrancesa extends AppCompatActivity {
                 x.setText("Rey de Tréboles");
                 break;
         }
+        x.setVisibility(View.VISIBLE);
 
     }
 
