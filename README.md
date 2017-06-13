@@ -1,4 +1,4 @@
-# Aleatorio
+# Appleatorios
 Aplicación que genera diversos tipos de eventos aleatorios
 
 Aleatorio con repetición:
