@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.ssroman.appleatorios.Ruleta"
+    tools:context="app.ejemplo.ssroman.appleatorios.Ruleta"
     tools:showIn="@layout/activity_ruleta">
 
 </android.support.constraint.ConstraintLayout>

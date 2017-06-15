@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/Users/SSRoman/Documents/DOCUMENTOS_AGUSTIN/PROYECTOS_ANDROID/APPLEATORIOS/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b7a4e16c35b7f058633a6e12e4b5289a63425057/classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a4dd3511e13636ce5ef3e3e7b6585b44b54e3305">
+        sha1="34956f8967ade6013fb348f726bd161f231b34ff">
         <dex dex="/Users/SSRoman/Documents/DOCUMENTOS_AGUSTIN/PROYECTOS_ANDROID/APPLEATORIOS/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b7fa732c93f3ca9ccdc5703a128c48fe986499ff/classes.dex" />
     </item>
 

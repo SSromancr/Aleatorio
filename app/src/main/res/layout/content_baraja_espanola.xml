@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.ssroman.appleatorios.BarajaEspanola"
+    tools:context="app.ejemplo.ssroman.appleatorios.BarajaEspanola"
     tools:showIn="@layout/activity_baraja_espanola">
 
 </android.support.constraint.ConstraintLayout>

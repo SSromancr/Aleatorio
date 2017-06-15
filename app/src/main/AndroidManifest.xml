@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ssroman.appleatorios">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -10,75 +12,93 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="app.ejemplo.ssroman.appleatorios.MainActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
         <activity
-            android:name=".Aleatorio"
+            android:name="app.ejemplo.ssroman.appleatorios.Aleatorio"
             android:label="@string/title_activity_aleatorio"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".CaraCruz"
+            android:name="app.ejemplo.ssroman.appleatorios.CaraCruz"
             android:label="@string/title_activity_cara_cruz"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".PiedraPapelTijera"
+            android:name="app.ejemplo.ssroman.appleatorios.PiedraPapelTijera"
             android:label="@string/title_activity_piedra_papel_tijera"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Dados"
+            android:name="app.ejemplo.ssroman.appleatorios.Dados"
             android:label="@string/title_activity_dados"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Ruleta"
+            android:name="app.ejemplo.ssroman.appleatorios.Ruleta"
             android:label="@string/title_activity_ruleta"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Cartas"
+            android:name="app.ejemplo.ssroman.appleatorios.Cartas"
             android:label="@string/title_activity_cartas"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Sorteos"
+            android:name="app.ejemplo.ssroman.appleatorios.Sorteos"
             android:label="@string/title_activity_sorteos"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Password"
+            android:name="app.ejemplo.ssroman.appleatorios.Password"
             android:label="@string/title_activity_password"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BarajaEspanola"
+            android:name="app.ejemplo.ssroman.appleatorios.BarajaEspanola"
             android:label="@string/title_activity_baraja_espanola"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BarajaFrancesa"
+            android:name="app.ejemplo.ssroman.appleatorios.BarajaFrancesa"
             android:label="@string/title_activity_baraja_francesa"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".AleatorioConRepeticion"
+            android:name="app.ejemplo.ssroman.appleatorios.AleatorioConRepeticion"
             android:label="@string/title_activity_aleatorio_con_repeticion"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".AleatorioSinRepeticion"
+            android:name="app.ejemplo.ssroman.appleatorios.AleatorioSinRepeticion"
             android:label="@string/title_activity_aleatorio_sin_repeticion"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".EmailActivity"
+            android:name="app.ejemplo.ssroman.appleatorios.EmailActivity"
             android:label="@string/title_activity_email"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".AcercaPopup"
+            android:name="app.ejemplo.ssroman.appleatorios.AcercaPopup"
             android:label="@string/title_activity_acerca_popup"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PantallaInicial"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="app.ejemplo.ssroman.appleatorios.PantallaInicial"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>
